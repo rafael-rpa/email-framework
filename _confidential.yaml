@@ -1,0 +1,49 @@
+{
+    # grunt-ftp-push: https://github.com/Robert-W/grunt-ftp-push
+    "ftp_push": {
+        "host": "ftp.example.com", # URL host of your FTP server.
+        "username": "username",
+        "password": "password",
+        "dest": "destination-path-on-server/", # Destination of where you want to upload your files (relative to the root).
+        "port": 21
+    },
+
+    # grunt-aws-s3: https://github.com/MathieuLoutre/grunt-aws-s3
+    "aws_s3": {
+        "accessKeyId": "amazon-s3-key", # Amazon S3 credentials key
+        "secretAccessKey": "amazon-s3-secret", # Amazon S3 credentials secret
+        "bucket": "amazon-s3-bucket-name", # Amazon S3 bucket name
+        "region": "", # Amazon S3 region (if not specified, it uploads to the default 'US Standard').
+        "access": "public-read", # A specific Amazon S3 ACL. Available ACL values at http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/S3.html#putObject-property
+        "bucketDest": "destination-path-on-server/" # The path on S3 where the files will be uploaded, relative to the bucket.
+    },
+
+    # grunt-mailgun: https://github.com/markhuge/grunt-mailgun
+    "mailgun": {
+        "key": "yourmailgunapikey", # Your Mailgun API key.
+        "sender": "postmaster@your-sandbox-mailgun.mailgun.org", # The 'from' name and address (acceptable domains may be restricted by your mailgun account settings).
+        "recipient": ["recipient@example.com"], # One or more email addresses to send your email to.
+        "subject": "Email test" # Optional field
+    },
+
+    # grunt-litmus: https://github.com/jeremypeter/grunt-litmus
+    "litmus": {
+        "username": "username",
+        "password": "password",
+        "url": "https://yourcompany.litmus.com", # Litmus account url (yourcompany name can be found in Account Settings > Profile > Subdomain for API)
+        "clients": [# Array of email clients to test. Available values at https://yourcompany.litmus.com/clients.xml
+                    # Desktop
+                    "ol2003","ol2007","ol2010","ol2011","ol2013","ol2015",
+                    "appmail7","appmail8","thunderbirdlatest",
+                    # Mobile devices
+                    "android4","androidgmailapp",
+                    "iphone5s","iphone6","iphone6plus","iphone6s",
+                    "ipadmini","ipad",
+                    # Web-based
+                    "gmailnew","ffgmailnew","chromegmailnew",
+                    "chromegoogleapps","ffgoogleapps","googleapps",
+                    "outlookcom","chromeoutlookcom","office365",
+                    "yahoo","ffyahoo",
+                    "aolonline","chromeaolonline"]
+    }
+}

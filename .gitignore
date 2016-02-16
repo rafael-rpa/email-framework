@@ -1,0 +1,7 @@
+# --- Confidential file (uncomment line below)
+#_confidential.yaml
+
+# --- Grunt/Node.js installed modules
+**/_framework/grunt/*
+!**/_framework/grunt/Gruntfile.js
+!**/_framework/grunt/package.json
