@@ -106,7 +106,7 @@ Run ```grunt mailgun``` to send email tests using [Mailgun](https://www.mailgun.
 
 #### Responsive email template
 
-Under the root folder you'll find a responsive template (tested and working across all major clients) to be used as a boilerplate. If you need the inlined version please refer to the same file in the *dist/* directory (in this case remember to replace the images URL).
+Under the root folder you'll find a [responsive template](http://rafael-rpa.github.io/email-framework/responsive-email-template.html) (tested and working across all major clients) to be used as a boilerplate. If you need the inlined version please refer to the same file in the *dist/* directory (in this case remember to replace the images URL).
 
 
 ## License
