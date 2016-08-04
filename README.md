@@ -1,6 +1,6 @@
 # Email Framework
 
-Email Framework is a modular framework developed to be a boilerplate/workflow when coding your emails. It uses Premailer (optional FTP push, AWS S3, Litmus, Mailgun also implemented) and Grunt as task runner.
+Email Framework is a modular framework developed to be a boilerplate when coding your emails. It uses Premailer (optional FTP push, AWS S3, Litmus, Mailgun also implemented) and Grunt as task runner.
 
 
 ## Requirements
@@ -14,7 +14,7 @@ Premailer \*³
 
 \*¹<sub> Make sure to have ```git``` command on your system path.</sub>  
 \*²<sub> Windows users: install Ruby using [RubyInstaller](http://rubyinstaller.org/downloads/) and also [RubyDevKit](http://rubyinstaller.org/downloads/) to build native C/C++ extensions for Ruby.</sub>  
-\*³<sub> Run ```gem install premailer hpricot nokogiri``` to install Premailer.</sub>
+\*³<sub> Run ```gem install premailer hpricot nokogiri``` to install [Premailer](https://rubygems.org/gems/premailer/).</sub>
 
 
 ## Usage
