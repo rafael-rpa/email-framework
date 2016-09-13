@@ -9,7 +9,6 @@
     <title>Responsive email template</title>
 
     <style type="text/css">
-
         /*********************************************** BUG FIXES *************************************************************/
         #outlook a { padding: 0; }
         .ReadMsgBody { width: 100%; }
@@ -20,6 +19,7 @@
         .appleLinksWhite a, .appleLinksBlack a { text-decoration: none !important; }
         .appleLinksWhite a { color: #ffffff !important; }
         .appleLinksBlack a { color: #000000 !important; }
+        a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
 
 
         /************************************************ RESETS ***************************************************************/
@@ -60,7 +60,6 @@
             .multi-blocked-element { display: block; width: 100% !important; max-width: 100% !important; min-width: 100% !important; margin: 0 auto 40px !important; }
             .multi-blocked-element-last { display: block; width: 100% !important; max-width: 100% !important; min-width: 100% !important; margin: 0 auto 0 !important; }
         }
-
     </style>
 
     <!--[if gte mso 9]>
@@ -76,10 +75,10 @@
     <!-- HIDDEN PREHEADER TEXT -->
     <span style="display: none !important; color: #eeeeee; font-size: 1px; line-height: 0; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
     <!-- / HIDDEN PREHEADER TEXT -->
-    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeeee" class="wrapper-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100% !important; line-height: 100% !important; height: 100% !important; table-layout: fixed; font-family: Arial, Helvetica, sans-serif; background: #eeeeee; margin: 0; padding: 0;">
+    <table class="wrapper-table" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeeee" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100% !important; line-height: 100% !important; height: 100% !important; table-layout: fixed; font-family: Arial, Helvetica, sans-serif; background: #eeeeee; margin: 0; padding: 0;">
         <tr>
-            <td align="center" valign="top" class="wrapper-padding" style="mso-line-height-rule: exactly; padding: 20px 0;">
-                <table align="center" width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" class="container-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 600px; background: #ffffff;">
+            <td class="wrapper-padding" align="center" valign="top" style="mso-line-height-rule: exactly; padding: 20px 0;">
+                <table class="container-table" align="center" width="600" cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 600px; background: #ffffff;">
                     <tr>
                         <td align="left" style="mso-line-height-rule: exactly;">
                             <table width="100%" align="left" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
@@ -87,7 +86,7 @@
                                 <!-- HERO IMAGE -->
                                 <tr>
                                     <td style="mso-line-height-rule: exactly;">
-                                        <img src="http://example.com/images-url/banner.png" width="600" height="300" alt="" class="image-full-width" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none;" />
+                                        <img class="image-full-width" src="http://example.com/images-url/banner.png" width="600" height="300" alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none;"/>
                                     </td>
                                 </tr>
                                 <!-- / HERO IMAGE -->
@@ -95,14 +94,14 @@
                                 <!-- CONTENT -->
                                 <tr>
                                     <td class="section-padding" style="mso-line-height-rule: exactly; padding: 20px 20px 0;">
-                                        <table width="560" cellpadding="0" cellspacing="0" border="0" class="responsive-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <table class="responsive-table" width="560" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                             <tr>
                                                 <td style="mso-line-height-rule: exactly;">
                                                     <p style="mso-line-height-rule: exactly; font-size: 14px; line-height: 19px; margin: 0 0 1em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint omnis quisquam laboriosam nesciunt aspernatur cum eius nam cupiditate debitis sed, error velit vel dolore aut praesentium et, assumenda minima architecto facilis provident! Atque quasi amet debitis ad dicta in nostrum, consectetur voluptatum. Sint ducimus omnis ut vero iste cumque mollitia quas alias, esse, illum, rerum sit reprehenderit iure. Assumenda minima nemo, soluta harum cupiditate.</p>
                                                     <p style="mso-line-height-rule: exactly; font-size: 14px; line-height: 19px; margin: 1em 0;">Sunt repudiandae cumque nobis molestiae repellat veniam cupiditate natus, voluptates incidunt exercitationem dolores necessitatibus distinctio qui nostrum magni eveniet vel, suscipit, animi nemo totam! Rem atque odit nam, autem, incidunt soluta iure sunt facilis eveniet blanditiis eaque architecto aspernatur tempore? Aut animi, ea ex ab cum atque ipsa sunt.</p>
 
                                                     <!-- LIST -->
-                                                    <table cellpadding="0" cellspacing="0" border="0" class="list-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;">
+                                                    <table class="list-table" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;">
                                                         <tr>
                                                             <td align="left" valign="top" style="mso-line-height-rule: exactly; font-size: 14px; line-height: 19px;">&bull;</td>
                                                             <td align="left" valign="top" width="10" style="mso-line-height-rule: exactly; font-size: 14px; line-height: 19px;">&nbsp;</td>
@@ -124,9 +123,9 @@
                                                     <p style="mso-line-height-rule: exactly; font-size: 14px; line-height: 19px; margin: 1em 0;">Consectetur excepturi ratione, quo debitis accusamus in rem mollitia voluptatem ab, ipsam saepe. Minima placeat, quos doloremque fuga ad blanditiis laudantium explicabo consequuntur commodi alias vel sunt nisi qui, ipsa ullam a culpa accusantium et atque dolore!</p>
 
                                                     <!-- BUTTON -->
-                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="responsive-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                    <table class="responsive-table" width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                         <tr>
-                                                            <td align="left" style="mso-line-height-rule: exactly;"><a href="http://example.com" target="_blank" class="button" style="display: inline-block; font-size: 14px; line-height: 1; color: #ffffff; text-decoration: none; text-align: center; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; background: #364b71; border-color: #364b71; border-style: solid; border-width: 10px 20px;"><!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->Lorem ipsum<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--></a></td>
+                                                            <td align="left" style="mso-line-height-rule: exactly;"><a class="button" href="http://example.com" target="_blank" style="display: inline-block; font-size: 14px; line-height: 1; color: #ffffff; text-decoration: none; text-align: center; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; background: #364b71; border-color: #364b71; border-style: solid; border-width: 10px 20px;"><!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]-->Lorem ipsum<!--[if mso]>&nbsp;&nbsp;&nbsp;&nbsp;<![endif]--></a></td>
                                                         </tr>
                                                     </table>
                                                     <!-- / BUTTON -->
@@ -140,12 +139,12 @@
                                 <!-- CONTENT (WITH SIDEBAR) -->
                                 <tr>
                                     <td class="section-padding" style="mso-line-height-rule: exactly; padding: 20px 20px 0;">
-                                        <table width="560" cellpadding="0" cellspacing="0" border="0" class="responsive-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <table class="responsive-table" width="560" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                             <tr>
                                                 <td align="left" valign="top" style="mso-line-height-rule: exactly;">
 
                                                     <!-- COPY -->
-                                                    <table cellpadding="0" cellspacing="0" border="0" width="350" align="left" class="responsive-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                    <table class="responsive-table" cellpadding="0" cellspacing="0" border="0" width="350" align="left" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                         <tr>
                                                             <td style="mso-line-height-rule: exactly;">
                                                                 <p style="mso-line-height-rule: exactly; font-size: 14px; line-height: 19px; margin: 0 0 1em;">Quod asperiores repellendus inventore ipsam repellat quam nesciunt ut odio ratione quibusdam ea dolor suscipit, quae pariatur explicabo dignissimos odit esse alias nulla sequi. Asperiores omnis earum ex similique itaque id, ducimus voluptatum amet tempore pariatur accusantium sunt alias culpa molestiae harum debitis mollitia molestias. Impedit, atque molestiae ipsam sunt facilis expedita quis unde id alias?</p>
@@ -155,10 +154,10 @@
                                                     <!-- / COPY -->
 
                                                     <!-- SIDEBAR -->
-                                                    <table cellpadding="0" cellspacing="0" border="0" width="190" align="right" class="responsive-table sidebar" bgcolor="#96aeda" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #96aeda;">
+                                                    <table class="responsive-table sidebar" cellpadding="0" cellspacing="0" border="0" width="190" align="right" bgcolor="#96aeda" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #96aeda;">
                                                         <tr>
                                                             <td class="sidebar-padding" style="mso-line-height-rule: exactly; color: #ffffff; padding: 10px;">
-                                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" class="list-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;">
+                                                                <table class="list-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; table-layout: fixed;">
                                                                     <tr>
                                                                         <td align="left" valign="middle" width="20" style="line-height: 1; mso-line-height-rule: exactly; font-size: 14px; color: #ffffff;"><img src="http://example.com/images-url/placeholder-1.png" width="20" height="20" alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none;" /></td>
                                                                         <td align="left" valign="middle" width="10" style="mso-line-height-rule: exactly; font-size: 14px; line-height: 19px; color: #ffffff;">&nbsp;</td>
@@ -196,13 +195,13 @@
                                 <!-- 3 COLUMN CONTENT -->
                                 <tr>
                                     <td class="section-padding" style="mso-line-height-rule: exactly; padding: 20px 20px 0;">
-                                        <table width="560" cellpadding="0" cellspacing="0" border="0" class="responsive-table" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                        <table class="responsive-table" width="560" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                             <tr>
                                                 <td align="left" valign="top" style="mso-line-height-rule: exactly;">
 
                                                     <!--[if mso]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="186" valign="top"><![endif]-->
 
-                                                    <table width="186" align="left" valign="top" class="multi-blocked-element" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                    <table class="multi-blocked-element" width="186" align="left" valign="top" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                         <tr>
                                                             <td width="600" align="center" valign="top" style="mso-line-height-rule: exactly;">
                                                                 <img src="http://example.com/images-url/placeholder-2.png" width="60" height="60" alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none;" />
@@ -213,7 +212,7 @@
 
                                                     <!--[if mso]></td><td width="188" valign="top"><![endif]-->
 
-                                                    <table width="188" align="left" valign="top" class="multi-blocked-element" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                    <table class="multi-blocked-element" width="188" align="left" valign="top" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                         <tr>
                                                             <td width="600" align="center" valign="top" style="mso-line-height-rule: exactly;">
                                                                 <img src="http://example.com/images-url/placeholder-2.png" width="60" height="60" alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none;" />
@@ -224,7 +223,7 @@
 
                                                     <!--[if mso]></td><td width="186" valign="top"><![endif]-->
 
-                                                    <table width="186" align="left" valign="top" class="multi-blocked-element-last" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                                    <table class="multi-blocked-element-last" width="186" align="left" valign="top" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
                                                         <tr>
                                                             <td width="600" align="center" valign="top" style="mso-line-height-rule: exactly;">
                                                                 <img src="http://example.com/images-url/placeholder-2.png" width="60" height="60" alt="" style="display: block; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; border: none;" />
@@ -245,7 +244,7 @@
                                 <!-- DISCLAIMER -->
                                 <tr>
                                     <td style="padding-top: 20px; mso-line-height-rule: exactly;">
-                                        <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeeee" class="disclaimer" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #eeeeee;">
+                                        <table class="disclaimer" width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#eeeeee" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #eeeeee;">
                                             <tr>
                                                 <td align="left" valign="top" style="padding-left: 5px; padding-right: 5px; mso-line-height-rule: exactly;">
                                                     <p style="mso-line-height-rule: exactly; font-size: 11px; line-height: 16px; margin: 1em 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa corporis, reprehenderit. Obcaecati, amet, cum. Aperiam vero consectetur sit, quae culpa.</p>
