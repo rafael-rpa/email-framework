@@ -111,4 +111,4 @@ Under the root folder you'll find a [responsive template](http://rafael-rpa.gith
 
 ## License
 
-Copyright © 2015-2016 Rafael Pillon Almeida. Email Framework is a free software licensed under the terms specified in the [LICENSE](https://github.com/rafael-rpa/front-end-framework/blob/master/LICENSE.md) file.
+Copyright © 2015-2017 Rafael Pillon Almeida. Email Framework is a free software licensed under the terms specified in the [LICENSE](https://github.com/rafael-rpa/front-end-framework/blob/master/LICENSE.md) file.
