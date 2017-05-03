@@ -82,6 +82,7 @@ module.exports = function(grunt) {
             test: {
                 options: {
                     key: '<%= confidential.mailgun.key %>',
+                    domain: '<%= confidential.mailgun.domain %>',
                     sender: '<%= confidential.mailgun.sender %>',
                     recipient: '<%= confidential.mailgun.recipient %>',
                     subject: '<%= confidential.mailgun.subject %>'

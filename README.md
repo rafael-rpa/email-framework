@@ -13,8 +13,8 @@ You might need to use sudo (for OSX, *nix) or run as Administrator (for Windows)
 Premailer \*³  
 
 \*¹<sub> Make sure to have ```git``` command on your system path.</sub>  
-\*²<sub> Windows users: install Ruby using [RubyInstaller](http://rubyinstaller.org/downloads/) and also [RubyDevKit](http://rubyinstaller.org/downloads/) to build native C/C++ extensions for Ruby.</sub>  
-\*³<sub> Run ```gem install premailer hpricot nokogiri``` to install [Premailer](https://rubygems.org/gems/premailer/).</sub>
+\*²<sub> Windows users: install Ruby using [RubyInstaller](http://rubyinstaller.org/downloads/) and you might also need [RubyDevKit](http://rubyinstaller.org/downloads/) to build native C/C++ extensions for Ruby.</sub>  
+\*³<sub> Run ```gem install premailer nokogiri``` to install [Premailer](https://rubygems.org/gems/premailer/).</sub>
 
 
 ## Usage
@@ -98,7 +98,8 @@ Run ```grunt mailgun``` to send email tests using [Mailgun](https://www.mailgun.
 # grunt-mailgun: https://github.com/markhuge/grunt-mailgun
 "mailgun": {
     "key": "yourmailgunapikey", # Your Mailgun API key.
-    "sender": "postmaster@your-sandbox-mailgun.mailgun.org", # The 'from' name and address (acceptable domains may be restricted by your mailgun account settings).
+    "domain": "example.com", # Your Mailgun email domain.
+    "sender": "sender@example.com", # The 'from' name and address (acceptable domains may be restricted by your mailgun account settings).
     "recipient": ["recipient@example.com"], # One or more email addresses to send your email to.
     "subject": "Email test" # Optional field
 }

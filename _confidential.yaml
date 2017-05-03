@@ -21,7 +21,8 @@
     # grunt-mailgun: https://github.com/markhuge/grunt-mailgun
     "mailgun": {
         "key": "yourmailgunapikey", # Your Mailgun API key.
-        "sender": "postmaster@your-sandbox-mailgun.mailgun.org", # The 'from' name and address (acceptable domains may be restricted by your mailgun account settings).
+        "domain": "example.com", # Your Mailgun email domain.
+        "sender": "sender@example.com", # The 'from' name and address (acceptable domains may be restricted by your mailgun account settings).
         "recipient": ["recipient@example.com"], # One or more email addresses to send your email to.
         "subject": "Email test" # Optional field
     },
