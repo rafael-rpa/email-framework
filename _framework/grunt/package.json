@@ -9,9 +9,6 @@
     "license": "MIT",
     "private": true,
     "main": "Gruntfile.js",
-    "engines": {
-        "node": ">= 0.10.0"
-    },
     "devDependencies": {
         "grunt": "^1.0.1",
         "grunt-contrib-watch": "^1.0.0",
@@ -20,9 +17,7 @@
         "grunt-ftp-push": "^0.4.4",
         "grunt-aws-s3": "^0.14.4",
         "grunt-mailgun": "^2.0.1",
-        "grunt-litmus": "^0.1.8"
-    },
-    "dependencies": {
-        "matchdep": "^1.0.0"
+        "grunt-litmus": "^0.1.8",
+        "load-grunt-tasks": "^3.5.2"
     }
 }
